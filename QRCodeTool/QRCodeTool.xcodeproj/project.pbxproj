@@ -15,6 +15,7 @@
 		5A2562C61D17ED9600054F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2562C41D17ED9600054F6A /* LaunchScreen.storyboard */; };
 		5A2562D11D17ED9600054F6A /* QRCodeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562D01D17ED9600054F6A /* QRCodeToolTests.m */; };
 		5A2562DC1D17ED9600054F6A /* QRCodeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562DB1D17ED9600054F6A /* QRCodeToolUITests.m */; };
+		5A2562EC1D17F09600054F6A /* QRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562EB1D17F09600054F6A /* QRCodeTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A2562D71D17ED9600054F6A /* QRCodeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2562DB1D17ED9600054F6A /* QRCodeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeToolUITests.m; sourceTree = "<group>"; };
 		5A2562DD1D17ED9600054F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2562EA1D17F09600054F6A /* QRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeTool.h; sourceTree = "<group>"; };
+		5A2562EB1D17F09600054F6A /* QRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5A2562B51D17ED9600054F6A /* QRCodeTool */ = {
 			isa = PBXGroup;
 			children = (
+				5A2562E91D17F08800054F6A /* QRCodeTool */,
 				5A2562B91D17ED9600054F6A /* AppDelegate.h */,
 				5A2562BA1D17ED9600054F6A /* AppDelegate.m */,
 				5A2562BC1D17ED9600054F6A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5A2562DD1D17ED9600054F6A /* Info.plist */,
 			);
 			path = QRCodeToolUITests;
+			sourceTree = "<group>";
+		};
+		5A2562E91D17F08800054F6A /* QRCodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				5A2562EA1D17F09600054F6A /* QRCodeTool.h */,
+				5A2562EB1D17F09600054F6A /* QRCodeTool.m */,
+			);
+			path = QRCodeTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				5A2562BE1D17ED9600054F6A /* ViewController.m in Sources */,
 				5A2562BB1D17ED9600054F6A /* AppDelegate.m in Sources */,
 				5A2562B81D17ED9600054F6A /* main.m in Sources */,
+				5A2562EC1D17F09600054F6A /* QRCodeTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +510,7 @@
 				5A2562E21D17ED9600054F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2562E31D17ED9600054F6A /* Build configuration list for PBXNativeTarget "QRCodeToolTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				5A2562E51D17ED9600054F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2562E61D17ED9600054F6A /* Build configuration list for PBXNativeTarget "QRCodeToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				5A2562E81D17ED9600054F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
