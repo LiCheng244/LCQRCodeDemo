@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface QRCodeTool : NSObject
 
@@ -22,6 +23,5 @@
  *  @return 二维码图片
  */
 +(UIImage *)createQRCodeWithMessage:(NSString *)message size:(CGFloat)size;
-
 
 @end

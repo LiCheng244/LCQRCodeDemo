@@ -8,8 +8,14 @@
 
 #import "ViewController.h"
 #import "QRCodeTool.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController ()
+@interface ViewController ()<AVCaptureMetadataOutputObjectsDelegate>
+
+@property (nonatomic, strong) AVCaptureSession *session;
+@property (nonatomic) AVCaptureSession *captureSession;
+@property (nonatomic) AVCaptureVideoPreviewLayer *videoPreviewLayer;
+@property (nonatomic) BOOL lastResult;
 
 @end
 
@@ -39,5 +45,16 @@
 #pragma mark - 扫描二维码
 - (IBAction)scanQRCode:(id)sender {
     
+    /**
+     *  
+     
+     ```ruby
+     source 'https://github.com/CocoaPods/Specs.git'
+     platform :ios, '6.0'
+     pod 'LBXScan','~> 1.1.1'
+     # 获取最新版本,采用下面的方式
+     #pod 'LBXScan',git:'https://github.com/MxABC/LBXScan.git'
+     ```
+     */
 }
 @end

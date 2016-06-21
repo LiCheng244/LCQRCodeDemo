@@ -16,6 +16,7 @@
 		5A2562D11D17ED9600054F6A /* QRCodeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562D01D17ED9600054F6A /* QRCodeToolTests.m */; };
 		5A2562DC1D17ED9600054F6A /* QRCodeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562DB1D17ED9600054F6A /* QRCodeToolUITests.m */; };
 		5A2562EC1D17F09600054F6A /* QRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2562EB1D17F09600054F6A /* QRCodeTool.m */; };
+		5AB1E6331D18DF9300A719E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1E6321D18DF9300A719E8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5A2562DD1D17ED9600054F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A2562EA1D17F09600054F6A /* QRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeTool.h; sourceTree = "<group>"; };
 		5A2562EB1D17F09600054F6A /* QRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeTool.m; sourceTree = "<group>"; };
+		5AB1E6321D18DF9300A719E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB1E6331D18DF9300A719E8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		5A2562AA1D17ED9600054F6A = {
 			isa = PBXGroup;
 			children = (
+				5AB1E6321D18DF9300A719E8 /* AVFoundation.framework */,
 				5A2562B51D17ED9600054F6A /* QRCodeTool */,
 				5A2562CF1D17ED9600054F6A /* QRCodeToolTests */,
 				5A2562DA1D17ED9600054F6A /* QRCodeToolUITests */,

@@ -11,7 +11,7 @@
 @implementation QRCodeTool
 
 
-#pragma mark -
+#pragma mark - 二维码生成
 +(UIImage *)createQRCodeWithMessage:(NSString *)message size:(CGFloat)size{
     
     // 1.创建过滤器
@@ -33,6 +33,7 @@
     
     return [self createNonInterpolatedUIImageFormCIImage:outputImage withSize:size];
 }
+
 
 #pragma mark ----- 私有方法 -----
 #pragma mark 根据CIImage生成指定大小的UIImage
@@ -70,6 +71,7 @@
     
     return  newImage;
 }
+
 #pragma mark imageToTransparent
 void ProviderReleaseData (void *info, const void *data, size_t size){
     free((void*)data);
