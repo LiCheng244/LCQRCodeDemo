@@ -23,7 +23,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,9 +33,9 @@
 #pragma mark - 生成二维码
 - (IBAction)createQRCode:(id)sender {
     
-    UIImageView *iamge = [[UIImageView alloc] initWithFrame:(CGRectMake(100, self.view.frame.size.height - 250, 200, 200))];
+    UIImageView *iamge = [[UIImageView alloc] initWithFrame:(CGRectMake(50, self.view.frame.size.height - 250, 200, 200))];
     
-    iamge.image = [QRCodeTool createQRCodeWithMessage:@"1234" size:200];
+    iamge.image = [QRCodeTool createQRCodeWithMessage:@"~二维码扫描出来的文字~" size:200];
     
     [self.view addSubview:iamge];
     
