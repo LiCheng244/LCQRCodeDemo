@@ -35,7 +35,7 @@
     
     UIImageView *iamge = [[UIImageView alloc] initWithFrame:(CGRectMake(50, self.view.frame.size.height - 250, 200, 200))];
     
-    iamge.image = [QRCodeTool createQRCodeWithMessage:@"~二维码扫描出来的文字~" size:200];
+    iamge.image = [QRCodeTool createQRCodeWithMessage:@"http://www.baidu.com" size:200];
     
     [self.view addSubview:iamge];
     
